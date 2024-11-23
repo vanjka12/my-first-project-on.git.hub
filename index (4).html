@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW Showcase</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo h1 {
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+        header .navigation a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 500px;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            color: white;
+            transform: translateY(-50%);
+        }
+
+        .hero-text h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero-text p {
+            font-size: 1.2em;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff7700;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+        }
+
+        .feature-box {
+            text-align: center;
+        }
+
+        .feature-box img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+
+        .feature-box h3 {
+            font-size: 1.5em;
+            margin: 20px 0 10px;
+        }
+
+        .feature-box p {
+            font-size: 1.1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+header .logo img {
+    width: 50px; 
+    height: auto;
+}
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/2048px-BMW.svg.png" alt="BMW Logo">
+            <h1>The Ultimate Driving Machine</h1>
+        </div>
+        <div class="navigation">
+            <a href="#">Vehicles</a>
+            <a href="#">Build Our Own</a>
+            <a href="#">Offers</a>
+            <a href="#">Shopping Tools</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="https://img1.akspic.ru/previews/6/2/1/8/5/158126/158126-bmw_4_j_serii-bajerishe_motoren_verke_ag-bmv_m4-legkovyye_avtomobili-bmw-x750.jpg" alt="BMW 530e iPerformance Sedan">
+        <div class="hero-text">
+            <h2>More Torque. More Miles. Less Fuel.</h2>
+            <p>The BMW 530e iPerformance Sedan</p>
+            <button>Explore</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-box">
+            <img src="https://images.wallpaperscraft.ru/image/single/bmw_m3_bmw_avtomobil_191778_1280x1280.jpg" alt="BMW X1">
+            <h3>Take The Wheel</h3>
+            <p>Head out for adventure in the BMW X1</p>
+            <button>Test Drive</button>
+        </div>
+        <div class="feature-box">
+            <img src="https://cdn.riastatic.com/photosnewr/auto/new_auto_storage/bmw-7-series__778894-620x415x70.jpg" alt="BMW X5 Interior">
+            <h3>Start a Conversation</h3>
+            <p>Find your BMW X5 xDrive40e iPerformance</p>
+            <button>Contact Dealer</button>
+        </div>
+        <div class="feature-box">
+            <img src="https://baza-gai.com.ua/catalog-images/bmw/x6-m/model.jpg" alt="BMW X6">
+            <h3>Explore the X6</h3>
+            <p>A standout with uncompromising style</p>
+            <button>See Offers</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 BMW. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
